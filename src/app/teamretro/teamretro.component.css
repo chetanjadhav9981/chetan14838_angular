@@ -1,0 +1,67 @@
+/* h1
+{
+    border-style: double;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+   width:1400px;
+} */
+/* .root
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+} */
+/* .appname{
+    font-size: 28px;
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+}
+.has-gradient-text{
+    background: -webkit-linear-gradient(#13f7f4,#2af598);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+/* .board-bar{
+
+background:rgba(gray,0.5);
+padding:8px 15px;
+    }
+
+.board-name{
+        font-size: 20px;
+        font-weight: bold;
+        color:blue;
+} */
+
+.board-wrapper
+{
+    display: flex;
+    flex-grow: 1;
+    overflow-x: auto;
+    
+}
+
+.board-columns
+{
+display: flex;
+flex-grow: 1;
+}
+.board-column
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+    margin:50px;
+    padding: 25px;  
+    border-radius:4px;
+
+    background: rgba(white,1);
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
